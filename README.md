@@ -1,16 +1,44 @@
-# React + Vite
+# AI Component Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI Component Generator is a web application that generates UI components using AI. It supports formats like HTML, CSS, Tailwind CSS, and React to help developers quickly build user interfaces.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Generate UI components from text prompts
+* Supports HTML, CSS, Tailwind CSS, and React
+* Live code editor and preview
+* Copy and download generated code
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* Tailwind CSS
+* Monaco Editor
+* OpenAI API
+
+---
+
+## Installation
+
+```bash
+git clone https://https://github.com/malleeswari-00/ai-comp-gen.git
+cd ai-component-generator
+npm install
+npm run dev
+```
+
+---
+
+## Usage
+
+Enter a prompt, select the format, and generate UI components instantly.
+
+---
+
+## License
+
+MIT License
