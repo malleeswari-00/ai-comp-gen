@@ -45,13 +45,13 @@ const Home = () => {
 
   // The client gets the API key from the environment variable `GEMINI_API_KEY`.
 
-  const ai=new GoogleGenAI({apiKey:"AIzaSyAH9y7bi1WTQhTo0eq6W0QaZs-rZgJhk5s"});
+  const ai=new GoogleGenAI({apiKey:""});
  async function getResponse() {
 
   setLoading(true);
   
     const response = await ai.models.generateContent({
-      model:"gemini-2.5-flash",
+      model:"",
       contents:`
       You are an experienced programmer with expertise in web development and UI/UX design. You create modern,animated and fully responsive UI componentes. You are highlt skilled in HTML,CSS,Bootstrap,Javascript, React.js
       Now,generate a UI component for:${prompt}
